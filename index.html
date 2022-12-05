@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mwkzdwyg" method="POST">
+      <fieldset>
+        <legend>Personal info</legend>
+
+        <label for="first-name">First name:</label>
+        <input type="text" name="first name" id="first-name" />
+
+        <label for="surname">Surname:</label>
+        <input type="text" name="surname" id="surname" /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" /><br />
+        <label for="country">Select country:</label>
+        <select name="country" id="country">
+          <option value="Israel">Israel</option>
+          <option value="US">US</option>
+          <option value="UK">UK</option></select
+        ><br />
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender-male" />
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" id="gender-female" />
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend>Profile</legend>
+        <img
+          src="https://cdn.pixabay.com/photo/2020/10/11/19/51/cat-5646889_1280.jpg"
+          alt="profile pic"
+          width="80"
+          height="80"
+        />
+        <label for="nickname">Nickname:</label>
+        <input type="text" name="nickname" id="nickname" /><br />
+
+        <label for="favorite-color">Choose favorite color:</label>
+        <input type="color" name="favorite color" id="favorite-color" />
+        <label for="password">Enter password:</label>
+        <input type="password" name="password" id="password" /><br />
+        <textarea
+          name="bio"
+          id="bio"
+          cols="30"
+          rows="10"
+          placeholder="Enter your bio"
+        ></textarea
+        ><br />
+        <label for="favorite-animal">Choose your favorite animal</label>
+        <select name="favorite animal" id="favorite-animal">
+          <option value="dog">dog</option>
+          <option value="shark">shark</option>
+          <option value="raven">raven</option>
+          <option value="camel">camel</option>
+          <option value="unicorn">unicorn</option>
+          <option value="dragon">dragon</option>
+        </select>
+      </fieldset>
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+    </form>
+  </body>
+</html>
